@@ -6,7 +6,7 @@ import sounddevice as sd
 import soundfile as sf
 
 MODEL = "tts/models/en_US-hfc_female-medium.onnx"
-PIPER_EXE = r"C:\Program Files\piper\piper.exe"
+PIPER_EXE = os.environ.get("PIPER_EXE", r"C:\Program Files\piper\piper.exe")
 
 def clean_text(text):
     # Piper hates emojis / unicode
