@@ -72,3 +72,6 @@ To demonstrate how a local AI assistant system can be built with memory, modular
 This project is intended for educational use.
 
 
+## Contributer List
+[Nabina Mallik](https://github.com/thenabinamallik)
+[Rajnandini Palatsingh](https://github.com/rajnandinipalatsingh)
