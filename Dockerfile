@@ -39,6 +39,6 @@ COPY . .
 #    --device /dev/snd
 #    This is for Linux hosts. Audio on other operating systems might require different configurations.
 #    Without audio hardware access, the text-to-speech and microphone functionalities will not work.
-
+#
 # Command to run the application
 CMD ["python", "main.py"]
